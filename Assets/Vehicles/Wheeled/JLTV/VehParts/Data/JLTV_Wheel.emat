@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{987CC139DCCCA5CC}Assets/Vehicles/Wheeled/JLTV/data/Textures/JLTV_Wheel_BCR.edds"
+ NMOMap "{A0A47AAB05BBF752}Assets/Vehicles/Wheeled/JLTV/data/Textures/JLTV_Wheel_NMO.edds"
+}

@@ -1,0 +1,28 @@
+Vehicle : "{0FD3226BD0578D4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_OGPK_M134.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64D56B6D3ECC7546}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{545C8860A582F3EF}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Green.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{2D377C9D71D1C479}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK_M134_Olive.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo DUKE_Antenna {
+     Prefab "{C3C8DC6BDF5C6C3C}Prefabs/Vehicles/Generic/VehParts/DUKE_Antenna/Duke_Jammer_Antenna.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{FF2AC832C30EC62F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M134/JLTV_OGPK_M134_Olive.et"
+    }
+   }
+  }
+ }
+}

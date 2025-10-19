@@ -1,0 +1,15 @@
+Turret : "{8D9DD29EBFA08DA5}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/OGPK_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0 0 0
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

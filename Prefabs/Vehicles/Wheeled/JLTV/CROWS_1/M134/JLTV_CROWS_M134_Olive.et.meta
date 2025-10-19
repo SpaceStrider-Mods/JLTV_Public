@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D951BEDA2CBC56BC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M134/JLTV_CROWS_M134_Olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+Turret : "{98E2677FAAAE56BB}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M134/JLTV_OGPK_M134.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{64D56B6D4BC64926}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{6C1EC521030C7BC8}Assets/Vehicles/Common/Turrets/OGPK/data/Cabin_Black.emat"
+    }
+   }
+  }
+ }
+}

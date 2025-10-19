@@ -1,0 +1,27 @@
+GenericEntity : "{8DB4EEC64B2C8A08}Prefabs/Vehicles/Core/VehicleWheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{7B3E675282E35D46}Assets/Vehicles/Wheeled/JLTV/VehParts/JLTV_Wheel.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_WheelHitZone Wheel : "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" {
+     HZDefault 1
+     m_pDestructionHandler SCR_DestructionBaseHandler "{633B5C27B111992B}" {
+      m_bAllowHideWreck 0
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{5E1CA64E3C981BB5}" {
+   ActionContexts {
+    UserActionContext "{5E1CA64E315DF059}" {
+     Position PointInfo "{5E1CA64E4AA94362}" {
+      Offset -0.2 0 0
+     }
+    }
+   }
+  }
+ }
+}

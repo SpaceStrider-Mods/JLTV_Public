@@ -1,0 +1,18 @@
+Turret : "{CB30630D4FA2895F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M134/JLTV_CROWS_M134.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{63395E514E1BF844}" {
+     SourceMaterial "STRYKER_Turret_Glass"
+     AssignedMaterial "{620EF62ACC3D8AB4}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_Turret_Glass.emat"
+    }
+    MaterialAssignClass "{63395E514E1BF86A}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{67A16EE75A21E8B3}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Turret_Black.emat"
+    }
+   }
+  }
+ }
+ coords -13.441 6.945 12.323
+}

@@ -1,0 +1,270 @@
+MetaFileClass {
+ Name "{635E5DC476BD97EE}Assets/Vehicles/Wheeled/JLTV/JLTV_Base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MergeMeshes 0
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5C8868219D505E00}" {
+     SourceMaterial "Main_Body2"
+     AssignedMaterial "{0CAB88D63BFA7C53}Assets/Vehicles/Wheeled/JLTV/data/Main_Body2.emat"
+    }
+    MaterialAssignClass "{5C8871079585ABFF}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{9FEF312D214C1D11}Assets/Vehicles/Wheeled/JLTV/data/Main_Body.emat"
+    }
+    MaterialAssignClass "{5C8871079585ABCC}" {
+     SourceMaterial "Interrior"
+     AssignedMaterial "{63DE41E7941CF2A3}Assets/Vehicles/Wheeled/JLTV/data/Interrior.emat"
+    }
+    MaterialAssignClass "{5C8871079585ABCA}" {
+     SourceMaterial "Mirror_Generic"
+     AssignedMaterial "{A47C5D03ADB1464D}Assets/Vehicles/Wheeled/JLTV/data/Mirror_generic.emat"
+    }
+    MaterialAssignClass "{5C887107F6D02DF3}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{44BB55AB8DCB8B56}Assets/Vehicles/Wheeled/JLTV/data/Glass.emat"
+    }
+    MaterialAssignClass "{5C887107F6D02D2D}" {
+     SourceMaterial "Screens"
+     AssignedMaterial "{9CDBE6EC1530E288}Assets/Vehicles/Wheeled/JLTV/data/Screens.emat"
+    }
+    MaterialAssignClass "{5C887107F6D02D21}" {
+     SourceMaterial "Reflector"
+     AssignedMaterial "{725336A643869D8E}Assets/Vehicles/Wheeled/JLTV/data/Reflector.emat"
+    }
+    MaterialAssignClass "{5C887107F6D02D3F}" {
+     SourceMaterial "Lights"
+     AssignedMaterial "{E09017ECECEAB7C4}Assets/Vehicles/Wheeled/JLTV/data/Lights.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Wells {
+    }
+    MeshParam Chairs {
+    }
+    MeshParam back_doors {
+    }
+    MeshParam front_doors {
+    }
+    MeshParam Interior {
+    }
+    MeshParam InteriorDisplays {
+    }
+    MeshParam Reflectors {
+    }
+    MeshParam fire_extingusher {
+    }
+    MeshParam Exterior {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_FG_Gearbox_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Body_01 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Body_02 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Body_03 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Body_04 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Body_05 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Body_06 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_BodySimple_Lower {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D9FA05910FD9A1AB}Common/Materials/Game/VehicleParts/vehicle_body_bottom_slide.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_BodySimple_Upper {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Engine_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_FuelTank_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_FuelTank_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_Wheel_FL_MineTrigger {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_Wheel_FR_MineTrigger {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_Wheel_RL_MineTrigger {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_Wheel_RR_MineTrigger {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Exterior {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{EAAE4EE4898FC780}Common/Materials/Game/Armor/armor_7mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+      "{D35A995F5FF6BA8F}Common/Materials/Game/glass_laminated.gamemat"
+      "{DE262768AD81A12D}Common/Materials/Game/Armor/armor_25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_FV_Chairs.004" {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D9FC388632D4ECC8}Common/Materials/Game/Fabric/fabric_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FV_Door_L01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FV_Door_L02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FV_Door_R01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FV_Door_R02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5C886821B2C4761F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5C886821B2C477E9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5C886821B2C477C9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5C886821B2C477D1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5C886821B2C47738}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

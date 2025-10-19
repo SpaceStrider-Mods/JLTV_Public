@@ -1,0 +1,292 @@
+AnimSetInstanceSource "{646B6D2C3107C9C8}" {
+ Template "{8E9F46FA685A8282}Assets/Vehicles/Wheeled/M998/workspaces/M998_door_roof.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIn" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Throttle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.AccelerationSpine" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
+   Resource "{28CCE471E2CD8C9F}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_light_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOn" {
+   Resource "{D5ED9D94AF3C83B9}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_light_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousOut" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out_Back" {
+   Resource "{E816286531823F0C}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_R02_closeDoorOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIdle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIdle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Idle" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.AccelerationSpine" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIdle" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIdle" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartIn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartLoop" {
+   Resource "{A320E3C75D1F6CD5}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_turn_on_engine_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStop" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousDeath" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousDeath" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousDeath" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousDeath" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousDeath" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousDeath" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.HeadLook" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.HeadLook" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Death" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Death" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Death" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.AccelerationSpine" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.AccelerationSpine" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.AccelerationSpine" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.AccelerationSpine" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out_Back" {
+   Resource "{84B2B242417741EB}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_L02_closeDoorOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutL" {
+   Resource "{3D42CE4BAC7B4FB9}Assets/Vehicles/Wheeled/M998/anm/v_M998_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOut" {
+   Resource "{650E836E557CE99F}Assets/Vehicles/Wheeled/M998/anm/v_M998_codriver_armored_roof_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{0BF3F13CD8CC4716}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_armored_roof_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
+   Resource "{3F419EADD6F6F15B}Assets/Vehicles/Wheeled/M998/anm/v_M998_passengerL_armored_roof_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
+   Resource "{E0B85F97D544FE17}Assets/Vehicles/Wheeled/M998/anm/v_M998_passengerR_armored_roof_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInL" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetIn" {
+   Resource "{D5A05FF3B08B32DC}Assets/Vehicles/Wheeled/M998/anm/v_M998_codriver_armored_roof_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{36E936B5F44A2177}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_armored_roof_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
+   Resource "{17530ECA71CC32FC}Assets/Vehicles/Wheeled/M998/anm/v_M998_passengerL_armored_roof_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
+   Resource "{DC8AE9A58C3A76E2}Assets/Vehicles/Wheeled/M998/anm/v_M998_passengerR_armored_roof_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
+   Resource "{0DC1350478887F1B}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_horn_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
+   Resource "{74E7B8F7DB2585C4}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_horn_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
+   Resource "{DCC027064D0B272C}Assets/Vehicles/Wheeled/M998/anm/v_M998_driver_horn_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out_Back" {
+   Resource "{E41B375D9C840F66}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_driver_armored_roof_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOn" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_Out" {
+   Resource "{F96218E4FB4A9CCE}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_R02_openDoorOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out_Back" {
+   Resource "{E2CCCBC82EBEB0B0}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_codriver_armored_roof_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOut" {
+   Resource "{9C6207BA97798F1C}Assets/Vehicles/Wheeled/M998/anm/v_M998_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_In" {
+   Resource "{95FD98B9031A9CA4}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_codriver_armored_roof_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out" {
+   Resource "{E2CCCBC82EBEB0B0}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_codriver_armored_roof_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_In" {
+   Resource "{255EF249EEC9928D}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_codriver_armored_roof_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_Out" {
+   Resource "{1D1B57E531A0634C}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_codriver_armored_roof_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_In" {
+   Resource "{D3ED98E2111F5CBB}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_driver_armored_roof_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out" {
+   Resource "{E41B375D9C840F66}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_driver_armored_roof_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_In" {
+   Resource "{71EDE9551AAF5805}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_driver_armored_roof_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_Out" {
+   Resource "{5B0B57BE23A5A353}Assets/Vehicles/Wheeled/M998/anm/Test/v_M998_driver_armored_roof_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_In" {
+   Resource "{A2BF830DF0300B6C}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_L02_closeDoorIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out" {
+   Resource "{84B2B242417741EB}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_L02_closeDoorOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_In" {
+   Resource "{F1CFAACB34AAF363}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_L02_openDoorIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_Out" {
+   Resource "{8FB22C505B3CB19E}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_L02_openDoorOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_In" {
+   Resource "{D46FB7B95046263C}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_R02_closeDoorIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out" {
+   Resource "{E816286531823F0C}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_R02_closeDoorOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_In" {
+   Resource "{CDC868DC4FA960F5}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_R02_openDoorIn.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{59EC9311547CA1C0}" {
+ }
+}

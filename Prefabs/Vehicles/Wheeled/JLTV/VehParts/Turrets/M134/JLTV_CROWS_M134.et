@@ -1,0 +1,28 @@
+Turret : "{0400DC14661BA986}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_CROWS.et" {
+ ID "51ACD0965653D003"
+ components {
+  SPC_WeaponRecoilComponent "{63397634AF9F5763}" {
+   m_fImpulse 78
+  }
+  SlotManagerComponent "{62F2DDF02D357EBB}" {
+   Slots {
+    WCS_Armament_DispenserSlotInfo M6_Dischargers {
+     Enabled 0
+    }
+    EntitySlotInfo Magazine {
+     PivotID "v_turret_01"
+     Offset -0.3924 1.0272 -0.7748
+     Angles 0 180 -90
+     Prefab "{1EA31D3584A0731E}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine_M134.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.2359 0.0224 0.1313
+    Angles 0 0 -90
+   }
+   WeaponTemplate "{5FD781339014FB12}Prefabs/Weapons/HeavyWeapons/M134/M134_Weapon_MADIS_MK2.et"
+  }
+ }
+}

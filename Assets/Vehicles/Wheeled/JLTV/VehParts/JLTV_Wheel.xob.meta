@@ -1,0 +1,66 @@
+MetaFileClass {
+ Name "{7B3E675282E35D46}Assets/Vehicles/Wheeled/JLTV/VehParts/JLTV_Wheel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{64654922E4B1FD72}" {
+     SourceMaterial "JLTV_Wheel"
+     AssignedMaterial "{EEF3505CDA9E72B7}Assets/Vehicles/Wheeled/JLTV/VehParts/Data/JLTV_Wheel.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Tire {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_VC_Tire {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Tire {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{FF2E0B286EC56463}Common/Materials/Game/RubberTire/rubber_tire_8mm_min.gamemat"
+      "{CCB8BAE847CF1561}Common/Materials/Game/Metal/metal_5mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_Tire {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{633B5C0C5638FCE0}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{633B5C0C5638FC5E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{633B5C0C5638FC1B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{633B5C0C5638FFC8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{633B5C0C5638FFA3}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{633B5C0C5638FF9B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

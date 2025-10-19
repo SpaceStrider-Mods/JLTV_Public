@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "5C8E4134FF6D9E51"
+ components {
+  MeshObject "{5C8E4134FF6D9FA6}" {
+   Object "{3382739645D000FC}Assets/Vehicles/Wheeled/JLTV/VehParts/JLTV_Decals.xob"
+  }
+  RigidBody "{5C8E4134FF6D9FA4}" {
+   Enabled 0
+   Mass 100
+   ModelGeometry 1
+  }
+  RplComponent "{5C8E4134FF6C49A7}" {
+  }
+  Hierarchy "{5C8E4134FF6D9FA5}" {
+  }
+ }
+}

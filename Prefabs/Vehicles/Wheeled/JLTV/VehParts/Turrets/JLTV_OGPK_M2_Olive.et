@@ -1,0 +1,16 @@
+Turret : "{8D9DD29EBFA08DA6}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{644A603F4B4002E0}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{4D954914AEE9FE02}Assets/Vehicles/Common/Turrets/OGPK/data/Cabin_Olive.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{90B989E912580C95}Prefabs/Weapons/HeavyWeapons/M2HB/HMG_M2HB_pintle_Armored_Olive.et"
+  }
+ }
+}

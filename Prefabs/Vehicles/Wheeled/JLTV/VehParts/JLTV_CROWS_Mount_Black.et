@@ -1,0 +1,13 @@
+GenericEntity : "{85F6C508CF89DE10}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_CROWS_Mount_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{633D186B87F021BB}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{F434820F3B2BEDEE}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Black.emat"
+    }
+   }
+  }
+ }
+}

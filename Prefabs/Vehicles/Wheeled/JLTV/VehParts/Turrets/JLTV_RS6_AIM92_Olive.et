@@ -1,0 +1,13 @@
+Turret : "{31A2FD2DF392B48E}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_Turret_AIM92.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{644B389EA2AAEBE5}" {
+     SourceMaterial "M230_LF"
+     AssignedMaterial "{E0DFE06AC83281DD}Assets/Vehicles/Wheeled/JLTV/data/M230_LF_Green.emat"
+    }
+   }
+  }
+ }
+}

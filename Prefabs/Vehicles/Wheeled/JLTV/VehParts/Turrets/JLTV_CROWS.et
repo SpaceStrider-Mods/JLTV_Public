@@ -1,0 +1,70 @@
+Turret : "{A43CF2F4D1E3CB17}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{64502E21809C18B7}" {
+    }
+    CompartmentDoorReference "{64502E218076C961}" {
+     AnimDoorIndex 1
+    }
+    CompartmentDoorReference "{64502E2183739596}" {
+     AnimDoorIndex 2
+    }
+    CompartmentDoorReference "{64502E2182665504}" {
+     AnimDoorIndex 3
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName "gunner"
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "door_r01" "passenger_r01"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      ParentContextList {
+       "door_r01_int"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "passenger_r01"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "passenger_r01"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "door_r01" "passenger_r01"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 1.1486 1.2656 -0.05
+     }
+     SeatType 1
+     DoorInfoList {
+      1
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{659B5EB697648CF7}" {
+      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     }
+    }
+   }
+  }
+  VehicleAnimationComponent "{5B24B3A9B284739F}" {
+   AnimGraph "{9C6D20FA5F9F5671}Assets/Vehicles/Wheeled/M998/workspaces/M998_door_roof.agr"
+   AnimInstance "{99771332BBDBB7C4}Assets/Vehicles/Wheeled/M998/workspaces/JLTV_door_roof_vehicle.asi"
+   AnimInjection AnimationAttachmentInfo "{5B24B3A9B284739E}" {
+    AnimGraph "{9C6D20FA5F9F5671}Assets/Vehicles/Wheeled/M998/workspaces/M998_door_roof.agr"
+    AnimInstance "{8E31380340CE3B95}Assets/Vehicles/Wheeled/M998/workspaces/JLTV_door_roof_player.asi"
+   }
+  }
+ }
+}
