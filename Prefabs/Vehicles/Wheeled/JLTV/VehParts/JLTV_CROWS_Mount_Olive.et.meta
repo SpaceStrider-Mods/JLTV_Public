@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E79C9D6A87A832EB}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_CROWS_Mount_Olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

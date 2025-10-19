@@ -1,0 +1,24 @@
+Turret : "{B119451EAB2C82A3}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M240/CROWS_M240_JLTV.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{63395E514E1BF844}" {
+     SourceMaterial "STRYKER_Turret_Glass"
+     AssignedMaterial "{620EF62ACC3D8AB4}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_Turret_Glass.emat"
+    }
+    MaterialAssignClass "{63395E514E1BF86A}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{67A16EE75A21E8B3}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Turret_Black.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{62F2DDF02D357EBB}" {
+   Slots {
+    EntitySlotInfo Magazine {
+     Prefab "{DAF03A7729E51346}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine_Black.et"
+    }
+   }
+  }
+ }
+}

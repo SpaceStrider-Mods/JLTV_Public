@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9C84EB6E9AEC490C}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M134/JLTV_OGPK_M134_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

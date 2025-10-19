@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C52656336BE59D7E}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_CROWS2_AIM92_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

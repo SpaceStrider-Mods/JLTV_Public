@@ -1,0 +1,120 @@
+Vehicle JLTV_CROWSII_Javelin_Black1 : "{06504E8EBB9CB94D}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Black.et" {
+ coords 130 1 95
+}
+GenericEntity : "{09A182D7D80853B2}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92_AH6M.et" {
+ coords 136.133 2.067 76.035
+}
+Vehicle LAV1 : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ coords 99.261 1 94.619
+}
+GenericEntity : "{1E29CFA773A85605}Prefabs/Weapons/Ammo/Warhead_AP_Spall_Base.et" {
+ coords 87.835 1 99.993
+}
+Vehicle JLTV_CROWS_Black1 : "{21908B379B8DDE0B}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Black.et" {
+ coords 115 1 95
+}
+Vehicle JLTV_CROWSII_Olive1 : "{225A9305129485F1}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Olive.et" {
+ coords 125 1 105
+}
+GenericEntity : "{2273E0FC5FC85912}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Spare_Wheel.et" {
+ coords 96.784 1 101.789
+}
+GenericEntity : "{246737687711A367}Prefabs/Weapons/Launchers/FGM148_Javelin/Launcher_FGM148_Javelin.et" {
+ coords 133.233 1 70.446
+}
+GenericEntity : "{250CCD685336BC19}Prefabs/Weapons/Warheads/Warhead_HEAT_M72A3.et" {
+ coords 88.896 1 101.412
+}
+Vehicle JLTV_OGPK_Olive1 : "{36EA87CEC1BE77E0}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Olive.et" {
+ coords 135 1 105
+}
+Vehicle JLTV_Unarmed_Black1 : "{3A66B6586464A16C}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Black.et" {
+ coords 110 1 95
+}
+GenericEntity : "{3DF204EEE0534EF2}Prefabs/Weapons/Launchers/FIM92_Stinger/Launcher_FIM92_Stinger.et" {
+ coords 134.876 1 74.54
+}
+Vehicle JLTV_CROWSII_Black1 : "{41F4B0594B760AD2}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Black.et" {
+ coords 125 1 95
+}
+Vehicle JLTV_CROWS_Olive1 : "{423EA86BC26F5128}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Olive.et" {
+ coords 85.457 1 120.282
+}
+Projectile : "{42B53D25572C17E9}Prefabs/Weapons/Ammo/Ammo_Missile_FGM-148_JLTV.et" {
+ coords 132.733 1 71.882
+}
+Projectile : "{480BC3F545EB7E27}Prefabs/Weapons/Ammo/Ammo_Missile_AIM92_Stinger.et" {
+ coords 136.059 1.312 73.501
+}
+Vehicle JLTV_CROWSII1 : "{49B5C8D1F28E7B7F}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII.et" {
+ coords 125 1 85
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ coords 106.673 1 104.887
+}
+Vehicle JLTV_OGPK_Black1 : "{5544A492985CF8C3}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Black.et" {
+ coords 135 1 95
+}
+$grp Vehicle : "{59C895043D862E4F}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Olive.et" {
+ JLTV_Unarmed_Olive1 {
+  coords 99.4 1 128.807
+  angleY 91.892
+ }
+ JLTV_Unarmed_Olive2 {
+  coords 105.59 1 95.115
+ }
+}
+GenericEntity : "{620EF62AED2BF8DB}Prefabs/Weapons/HeavyWeapons/M2HB/HMG_M2HB_CROWS.et" {
+ coords 113.032 1 68.191
+}
+Vehicle JLTV_CROWSII_Javelin_Olive1 : "{65FE6DD2E27E366E}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Olive.et" {
+ coords 130 1 105
+}
+Vehicle JLTV_CROWSII_AIM1 : "{6BBA4A0E747D2215}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/AIM92/JLTV_CROWSII_AIM92.et" {
+ coords 120 1 85
+}
+GenericEntity : "{789BB13F2B290897}Prefabs/Vehicles/Wheeled/JLTV/Dst/JLTV_window_base.et" {
+ coords 92.813 1 99.022
+}
+Projectile : "{79FA751EEBE25DDE}Prefabs/Weapons/Ammo/Ammo_Rocket_M72A3.et" {
+ coords 88.819 1 100.706
+}
+Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ coords 101.793 1 111.054
+}
+Vehicle JLTV_CROWSII_Javelin1 : "{9B906EE7402FDA06}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin.et" {
+ coords 130 1 85
+}
+Vehicle JLTV_CROWS1 : "{A19889DD96914B75}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS.et" {
+ coords 115 1 85
+}
+Vehicle JLTV_CROWSII_AIM92_Black1 : "{A27228A13874276F}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/AIM92/JLTV_CROWSII_AIM92_Black.et" {
+ coords 120 1 95
+}
+TracerProjectile : "{A8835B5EA92F1CE1}Prefabs/Weapons/Ammo/Ammo_25x137/Ammo_25x137_APDST_M791.et" {
+ coords 89.664 1 94.153
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 83.145 1 132.022
+}
+Vehicle JLTV_CROWSII_AIM92_Olive1 : "{C1DC0BFD6196A84C}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/AIM92/JLTV_CROWSII_AIM92_Olive.et" {
+ coords 122.978 1 119.85
+}
+Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+ coords 89.907 1 114.392
+}
+GenericEntity : "{E24496896C5D6309}Prefabs/Weapons/AircraftWeapons/MissilePods/M299/Pod_M299_2x.et" {
+ coords 134.67 1.617 76.591
+}
+Vehicle JLTV_OGPK1 : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et" {
+ coords 135 1 85
+}
+Vehicle JLTV_Unarmed1 : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.et" {
+ coords 110 1 85
+}
+GenericEntity : "{F44E301781489297}Prefabs/Weapons/AircraftWeapons/MissilePods/Pod_Javelin_CROWS.et" {
+ coords 132.612 1.659 74.424
+}
+Projectile : "{F4A09B4A53606BCB}Prefabs/Weapons/Ammo/Ammo_APFSDS_HighCalibre_base.et" {
+ coords 88.242 1 101.534
+}

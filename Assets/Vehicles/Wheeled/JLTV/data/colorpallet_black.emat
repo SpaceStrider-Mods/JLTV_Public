@@ -1,0 +1,4 @@
+MatPBRBasic : "{551C1EF96052FF27}Assets/Vehicles/Wheeled/JLTV/data/colorpallet.emat" {
+ Color 0 0 0 1
+ RoughnessScale 2
+}

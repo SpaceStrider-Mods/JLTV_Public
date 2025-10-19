@@ -1,0 +1,13 @@
+Turret : "{086A10C13C8A2350}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_Turret_Javelin.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{644B389ECA8401E1}" {
+     SourceMaterial "M230_LF"
+     AssignedMaterial "{40B7EA05569B9FDC}Assets/Vehicles/Wheeled/JLTV/data/M230_LF_Black.emat"
+    }
+   }
+  }
+ }
+}

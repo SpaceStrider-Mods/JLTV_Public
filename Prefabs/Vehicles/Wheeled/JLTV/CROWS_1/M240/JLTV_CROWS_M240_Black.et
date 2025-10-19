@@ -1,0 +1,38 @@
+Vehicle : "{B852D03E85D1F66D}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C72CA225F7A3B65}" {
+     SourceMaterial "Mirror_Generic"
+     AssignedMaterial "{A47C5D03ADB1464D}Assets/Vehicles/Wheeled/JLTV/data/Mirror_generic.emat"
+    }
+    MaterialAssignClass "{64F04C0C1B7C9DCD}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{F434820F3B2BEDEE}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Black.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{E7B2EC0E275ED4D6}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_CROWS_M240_Black.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{DAAFEBC0DE7B4E71}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Roof_Black.et"
+    }
+    EntitySlotInfo DUKE_Antenna {
+     Prefab "{C3C8DC6BDF5C6C3C}Prefabs/Vehicles/Generic/VehParts/DUKE_Antenna/Duke_Jammer_Antenna.et"
+    }
+    RegisteringComponentSlotInfo CROWS {
+     Prefab "{D99E0622607AE993}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M240/CROWS_M240_JLTV_Black.et"
+    }
+    RegisteringComponentSlotInfo Mount {
+     Prefab "{8432BE36DE4ABDC8}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_CROWS_Mount_Black.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GenericEntity : "{08EDAC148773828A}Prefabs/Weapons/HeavyWeapons/M134/M134_Weapon_M151_CROWS.et" {
+ ID "629D584AB4B5971F"
+ components {
+  WeaponComponent "{629D584A845F8B28}" {
+   components {
+    MuzzleComponent "{629D584A80C39F75}" {
+     DispersionRange 125
+    }
+   }
+  }
+ }
+}

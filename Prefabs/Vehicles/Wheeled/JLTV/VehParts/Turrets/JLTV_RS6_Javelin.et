@@ -1,0 +1,41 @@
+Turret : "{086A10C13C8A234F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_Turret_Javelin.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{620CD9EE5080AD3D}" {
+     AnimDoorIndex 0
+    }
+    CompartmentDoorReference "{64502E275B77B4E1}" {
+     AnimDoorIndex 1
+    }
+    CompartmentDoorReference "{64502E27448BE195}" {
+     AnimDoorIndex 2
+    }
+    CompartmentDoorReference "{64502E2747A04C60}" {
+     AnimDoorIndex 3
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "gunner_idle"
+      Offset 0.4941 -0.0773 0.7941
+     }
+     DoorInfoList +{
+     }
+    }
+   }
+  }
+  TurretComponent "{5C7A7A05B2216696}" {
+  }
+  VehicleAnimationComponent "{5C7A7A05B2227F84}" {
+   AnimGraph "{9C6D20FA5F9F5671}Assets/Vehicles/Wheeled/M998/workspaces/M998_door_roof.agr"
+   AnimInstance "{99771332BBDBB7C4}Assets/Vehicles/Wheeled/M998/workspaces/JLTV_door_roof_vehicle.asi"
+   AnimInjection AnimationAttachmentInfo "{5C7A7A05B2227F85}" {
+    AnimGraph "{9C6D20FA5F9F5671}Assets/Vehicles/Wheeled/M998/workspaces/M998_door_roof.agr"
+    AnimInstance "{8E31380340CE3B95}Assets/Vehicles/Wheeled/M998/workspaces/JLTV_door_roof_player.asi"
+   }
+  }
+ }
+}

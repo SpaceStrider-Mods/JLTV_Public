@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E816286531823F0C}Assets/Vehicles/Wheeled/JLTV/anim/v_JLTV_passenger_R02_closeDoorOut.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

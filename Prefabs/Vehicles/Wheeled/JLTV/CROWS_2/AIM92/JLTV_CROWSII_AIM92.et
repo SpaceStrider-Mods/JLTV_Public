@@ -1,0 +1,62 @@
+Vehicle : "{49B5C8D1F28E7B7F}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC_EditableEntity_JLTV_MADIS_MK1_Name"
+    m_Image "{098B602F532057F8}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_CROWSII_AIM92.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 3700
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo CROWS {
+     MergePhysics 1
+     Prefab "{31A2FD2DF392B48E}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_CROWS2_AIM92.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    WCS_RearmVehicleAtRepairStationAction "{633A2A732CC2E5C2}" : "{3757C83EDA741808}Prefabs/Weapons/Core/Configs/WCS_RearmVehicleAtRepairStationAction.conf" {
+     ParentContextList {
+      "door_l02" "door_r02"
+     }
+     UIInfo SCR_ActionUIInfo "{62A1474E6A4D9DE9}" {
+      Name "#WCS-UserAction_RearmVehicle M230 30x113mm"
+     }
+     "Sort Priority" 122
+     m_aRearmData {
+      WCS_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{9B8CDC3CD2E535D2}Prefabs/Weapons/Magazines/Box_30x113_M230LF_250rnd_HEDP.et"
+       maxAmount 1
+       unitSupplyCost 100
+      }
+     }
+    }
+    WCS_RearmVehicleAtRepairStationAction "{65C71042FA1639DA}" : "{3757C83EDA741808}Prefabs/Weapons/Core/Configs/WCS_RearmVehicleAtRepairStationAction.conf" {
+     ParentContextList {
+      "door_l02" "door_r02"
+     }
+     UIInfo SCR_ActionContextUIInfo "{633A2A735AA87AB7}" {
+      Name "#WCS-UserAction_RearmVehicle M240 #AR-AmmunitionID_762x51mm"
+     }
+     "Sort Priority" 123
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_sAmmoFullReason "#WCS-SupportStation_RearmVehicle_AmmoIsFull"
+     m_aRearmData {
+      WCS_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{994590B89BC7600C}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_CROWS2_500rnd_4AP_1Tracer.et"
+       maxAmount 4
+       unitSupplyCost 25
+      }
+     }
+    }
+   }
+  }
+ }
+}

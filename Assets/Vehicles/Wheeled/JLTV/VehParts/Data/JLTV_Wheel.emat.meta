@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EEF3505CDA9E72B7}Assets/Vehicles/Wheeled/JLTV/VehParts/Data/JLTV_Wheel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,27 @@
+Vehicle : "{A19889DD96914B75}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC_EditableEntity_JLTV_CROWS_M240_Name"
+    m_Image "{0AB96C29EBED16B0}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_CROWS_M240.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1000
+     }
+     SCR_EntityBudgetValue "{62A021987AC78EC6}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo CROWS {
+     Prefab "{E6DA097FBE53DA4F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M240/CROWS_M240_JLTV_Tan.et"
+    }
+   }
+  }
+ }
+}

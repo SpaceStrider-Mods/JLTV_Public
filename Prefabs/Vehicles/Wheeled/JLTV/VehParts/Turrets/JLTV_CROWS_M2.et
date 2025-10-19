@@ -1,0 +1,14 @@
+Turret : "{0400DC14661BA986}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_CROWS.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{620EF62AED2BF8DB}Prefabs/Weapons/HeavyWeapons/M2HB/HMG_M2HB_CROWS.et"
+  }
+ }
+}

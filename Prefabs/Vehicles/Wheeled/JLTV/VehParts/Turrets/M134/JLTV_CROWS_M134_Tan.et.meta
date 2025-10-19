@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CCAB43169A76BC14}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M134/JLTV_CROWS_M134_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

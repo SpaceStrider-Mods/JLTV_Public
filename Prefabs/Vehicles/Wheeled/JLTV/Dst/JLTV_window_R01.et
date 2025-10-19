@@ -1,0 +1,8 @@
+GenericEntity : "{789BB13F2B290897}Prefabs/Vehicles/Wheeled/JLTV/Dst/JLTV_window_base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{704DBC42E7B8B86A}Assets/Vehicles/Wheeled/JLTV/dst/JLTV_Glass_02.xob"
+  }
+ }
+}
